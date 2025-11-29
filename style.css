@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+#flashcard {
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    touch-action: pan-y;
+}
+
+#statusBar {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
