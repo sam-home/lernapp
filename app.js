@@ -70,7 +70,7 @@ function showCard() {
 }
 
 // Swipe Handling
-let startX = 0;
+/*let startX = 0;
 flashcard.addEventListener('touchstart', e => {
     startX = e.touches[0].clientX;
 });
@@ -83,6 +83,10 @@ flashcard.addEventListener('touchend', e => {
     } else if (delta < -50) {
         markCard('cannot');
     }
+});*/
+
+flashcard.addEventListener('click', () => {
+    markCard('can');
 });
 
 function markCard(status) {
